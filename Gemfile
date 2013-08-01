@@ -5,6 +5,8 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'compass-rails'
+  gem 'zurb-foundation'
 end
 gem 'jquery-rails'
 gem 'cancan'
@@ -12,10 +14,6 @@ gem 'devise'
 gem 'figaro'
 gem 'haml-rails'
 gem 'rolify'
-group :assets do
-  gem 'compass-rails'
-  gem 'zurb-foundation'
-end
 group :development do
   gem 'better_errors'
   gem 'sqlite3'
