@@ -13,7 +13,9 @@
       %header
         = render 'layouts/navigation'
         = render 'layouts/messages'
-      #main{:role => "main"}
-        = yield
-      %footer
-    / ! end of #container
+      .row
+        .small-11.small-centered.columns 
+          #main{:role => "main"}
+            = yield
+          %footer
+        / ! end of #container
